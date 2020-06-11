@@ -16,10 +16,10 @@ class LoginController extends Controller
 
     public function save(){
 
-        $admin = new App\Models\Admin();
-        $admin -> name ="Ahmed Emam";
-        $admin -> email ="ahmed@gmail.com";
-        $admin -> password = bcrypt("Ahmed Emam");
+        $admin = new Admin();
+        $admin -> name ="admin ";
+        $admin -> email ="admin@admin.com";
+        $admin -> password = bcrypt("pasword");
         $admin -> save();
 
     }
