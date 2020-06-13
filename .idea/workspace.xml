@@ -1,34 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Helpers/Helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainCategoriesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/MainCategoriesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/messages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fr/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fr/messages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fr/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fr/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fr/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce.iml" afterDir="false" />
+    <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="Commit 11-6 set index in to public folder and Make Migration Tables">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LanguagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/LanguagesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/LanguageRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/LanguageRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/MainCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/MainCategory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +202,7 @@
       <workItem from="1591811232976" duration="9929000" />
       <workItem from="1591845976099" duration="882000" />
       <workItem from="1591847314298" duration="13190000" />
-      <workItem from="1592069817615" duration="13519000" />
+      <workItem from="1592069817615" duration="14297000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 11-6 set index in to public folder and Make Migration Tables">
       <created>1591888810260</created>
@@ -237,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591888810260</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit 11-6 set index in to public folder and Make Migration Tables">
+      <created>1592084132508</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592084132509</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,10 +259,10 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="364" y="25" width="646" height="688" key="#phpunit.xml/0.0.1360.738@0.0.1360.738" timestamp="1591846647872" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1591888707393">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1592084633246">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1360.738@0.0.1360.738" timestamp="1591888707393" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1360.738@0.0.1360.738" timestamp="1592084633246" />
     <state x="128" y="62" key="DiffContextDialog" timestamp="1591859240962">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
@@ -294,6 +275,10 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="515" y="293" key="NewPhpFileDialog/0.0.1360.738@0.0.1360.738" timestamp="1592080785690" />
+    <state x="272" y="103" key="Vcs.Push.Dialog.v2" timestamp="1592084464793">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="272" y="103" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1592084464793" />
     <state x="428" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1591847322172">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
