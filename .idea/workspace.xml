@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Helpers/Helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainCategoriesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/MainCategoriesRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/fr/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/fr/messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/fr/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/fr/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/fr/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LanguagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/LanguagesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/LanguageRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/LanguageRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/MainCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/MainCategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +157,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../starter-kit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -141,24 +167,33 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\ecommerce\resources\views\admin\languages" />
-      <recent name="C:\wamp64\www\ecommerce\app\Models" />
-      <recent name="C:\wamp64\www\ecommerce\resources\views\admin\includes\alerts" />
-      <recent name="C:\wamp64\www\ecommerce\resources\views\admin\Auth" />
-      <recent name="C:\wamp64\www\ecommerce\resources\views\layouts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\ecommerce\public\assets" />
       <recent name="C:\laragon\www\ecommerce\public" />
       <recent name="C:\wamp64\www\ecommerce\resources\views\front" />
       <recent name="C:\wamp64\www\ecommerce" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\ecommerce\resources\lang" />
+      <recent name="C:\laragon\www\ecommerce\resources\views\admin" />
+      <recent name="C:\wamp64\www\ecommerce\resources\views\admin\languages" />
+      <recent name="C:\wamp64\www\ecommerce\app\Models" />
+      <recent name="C:\wamp64\www\ecommerce\resources\views\admin\includes\alerts" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.MainCategoriesController.php">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="MainCategoriesController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/Http/Controllers/Admin/MainCategoriesController.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.MainCategoriesController.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -193,6 +228,7 @@
       <workItem from="1591811232976" duration="9929000" />
       <workItem from="1591845976099" duration="882000" />
       <workItem from="1591847314298" duration="13190000" />
+      <workItem from="1592069817615" duration="13519000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 11-6 set index in to public folder and Make Migration Tables">
       <created>1591888810260</created>
@@ -226,10 +262,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Commit 11-6 set index in to public folder and Make Migration Tables" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="739" y="62" key="#MainCategoriesController.php" timestamp="1592073864552">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="739" y="62" key="#MainCategoriesController.php/0.0.1360.738@0.0.1360.738" timestamp="1592073864552" />
     <state x="359" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591849930632">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="359" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.738@0.0.1360.738" timestamp="1591849930632" />
+    <state x="750" y="128" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1592073839782">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="750" y="128" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1360.738@0.0.1360.738" timestamp="1592073839782" />
     <state x="364" y="25" width="646" height="688" key="#phpunit.xml" timestamp="1591846647872">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
@@ -246,10 +290,10 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="460" y="125" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1591892676598" />
-    <state x="515" y="293" key="NewPhpFileDialog" timestamp="1591849952679">
+    <state x="515" y="293" key="NewPhpFileDialog" timestamp="1592080785690">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="515" y="293" key="NewPhpFileDialog/0.0.1360.738@0.0.1360.738" timestamp="1591849952679" />
+    <state x="515" y="293" key="NewPhpFileDialog/0.0.1360.738@0.0.1360.738" timestamp="1592080785690" />
     <state x="428" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1591847322172">
       <screen x="0" y="0" width="1360" height="738" />
     </state>

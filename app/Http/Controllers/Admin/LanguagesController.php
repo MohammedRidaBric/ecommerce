@@ -49,6 +49,8 @@ class LanguagesController extends Controller
             if (!$language) {
                 return redirect()->route('admin.languages.edit', $id)->with(['error' => 'هذه اللغة غير موجوده']);
             }
+            if (!$request->has('active')) $request-> request->add(['active'=>0]);
+
             $language -> update($request -> except('_token'));
 
             return redirect()->route('admin.languages')->with(['success' => 'تم تحديث اللغة بنجاح']);
