@@ -28,7 +28,7 @@ class MainCategoriesRequest extends FormRequest
             'category' => 'required|array|min:1',
             'category.*.name' => 'required',
             'category.*.abbr' => 'required',
-            'category.*.active' => 'required',
+           // 'category.*.active' => 'required',
         ];
     }
 

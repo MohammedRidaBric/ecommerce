@@ -1,10 +1,11 @@
 <?php
 
+use App\Models\Language;
 use Illuminate\Support\Facades\Config;
 
 function get_languages(){
 
- return   \App\Models\Language::active()->Selection()->get();
+    return Language::active()->Selection()->get();
 }
 
 function get_default_lang(){
@@ -14,8 +15,19 @@ function get_default_lang(){
 
 function uploadImage($folder, $image)
 {
-    $image->store('/', $folder);
+    $image->store($folder);
     $filename = $image->hashName();
-    $path = 'images/' . $folder . '/' . $filename;
+    $path = 'assets/images/' . $folder . '/' . $filename;
     return $path;
 }
+
+function SaveImage($folder, $photo)
+{
+    $file_extension = $photo->getClientOriginalExtension();
+
+    $file_name = $photo->hashName() . '.' . $file_extension;
+    $path = 'assets/images/' . $folder;
+    $photo->move($path, $file_name);
+    return $path . "/" . $file_name;
+}
+

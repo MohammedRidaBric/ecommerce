@@ -13,12 +13,20 @@ class MainCategory extends Model
     ];
 
 
-    public function scopeActive($query){
-        return $query -> where('active',1);
+    public function scopeActive($query)
+    {
+        return $query->where('active', 1);
     }
 
-    public function scopeSelection($query){
-       return $query->select( 'id','translation_lang','name','slug','photo','active');
+    public function scopeSelection($query)
+    {
+        return $query->select('id', 'translation_lang', 'name', 'slug', 'photo', 'active');
     }
+
+    public function getActive()
+    {
+        return $this->active == 1 ? 'مفعل' : 'غير مفعل';
+    }
+
 
 }

@@ -63,9 +63,10 @@
                                                @if(get_languages()->count() > 0)
                                                 @foreach(get_languages() as $index => $lang )
                                                 <div class="row">
-                                                    <div class="col-md-6">
+                                                    <div class="col-md-12">
                                                         <div class="form-group">
-                                                            <label for="projectinput1">   اسم القسم  {{ __('messages.'. $lang->abbr) }} </label>
+                                                            <label for="projectinput1"> اسم
+                                                                القسم {{ __('messages.'. $lang->abbr) }} </label>
                                                             <input type="text" value="" id=""
                                                                    class="form-control"
                                                                    name="category[{{$index}}][name]">
@@ -74,33 +75,38 @@
                                                             @enderror
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-6">
+                                                    <div class="col-md-6 hidden">
                                                         <div class="form-group">
-                                                            <label for="projectinput1">   أختصار اللغة  {{  __('messages.'. $lang->abbr) }} </label>
-                                                            <input type="text" value="" id=""
+                                                            <label for="projectinput1"> أختصار
+                                                                اللغة {{  __('messages.'. $lang->abbr) }} </label>
+                                                            <input type="text" value="{{$lang->abbr}}" id=""
                                                                    class="form-control"
-                                                                   name="category[{{$index}}][translation_lang]">
-                                                            @error("category.$index.translation_lang")
+                                                                   name="category[{{$index}}][abbr]">
+                                                            @error("category.$index.abbr")
                                                             <span class="text-danger">{{$message}}</span>
-                                                            @enderror                                                        </div>
+                                                            @enderror
+                                                        </div>
                                                     </div>
-                                                    <div class="col-md-6">
+                                                    <div class="col-md-12">
                                                         <div class="form-group mt-1">
-                                                            <input type="checkbox"  value="1" name="category[{{$index}}][active]"
-                                                                   id="switcheryColor4"
+                                                            <input type="checkbox" value="1"
+                                                                   name="category[{{$index}}][active]"
+                                                                   id="switcheryColor{{$index}}"
                                                                    class="switchery" data-color="success"
                                                                    checked/>
-                                                            <label for="switcheryColor4"
-                                                                   class="card-title ml-1">     الحالة {{  __('messages.'.$lang->abbr) }}     </label>
+                                                            <label for="switcheryColor{{$index}}"
+                                                                   class="card-title ml-1">
+                                                                الحالة {{  __('messages.'.$lang->abbr) }}     </label>
                                                             @error("category.$index.active")
                                                             <span class="text-danger">{{$message}}</span>
-                                                            @enderror                                                        </div>
+                                                            @enderror
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                @endforeach
+                                                    @endforeach
                                                 @endif
-                                             <div class="form-actions">
-                                                <button type="button" class="btn btn-warning mr-1"
+                                                <div class="form-actions">
+                                                    <button type="button" class="btn btn-warning mr-1"
                                                         onclick="history.back();">
                                                     <i class="ft-x"></i> تراجع
                                                 </button>

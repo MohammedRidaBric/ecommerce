@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="Commit 11-6 set index in to public folder and Make Migration Tables">
+    <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/maincategories/1592961191.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/maincategories/jL2vhGfp2K49qTXSBrZiNuqa6xtRP23dqEMwVqFD.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/maincategories/kOVG1z4KRCWz3mSNylO2I2N19ivaOVj654NghrhH.png.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Helpers/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/Helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainCategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainCategoriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/MainCategoriesRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/MainCategoriesRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/MainCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/MainCategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/maincategories/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/maincategories/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/maincategories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +24,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,16 +133,19 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ce5IgUY4KD2fXOoRcqsiEdUibb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -141,18 +155,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\ecommerce\public\assets" />
-      <recent name="C:\laragon\www\ecommerce\public" />
-      <recent name="C:\wamp64\www\ecommerce\resources\views\front" />
-      <recent name="C:\wamp64\www\ecommerce" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\laragon\www\ecommerce\resources\lang" />
       <recent name="C:\laragon\www\ecommerce\resources\views\admin" />
       <recent name="C:\wamp64\www\ecommerce\resources\views\admin\languages" />
       <recent name="C:\wamp64\www\ecommerce\app\Models" />
       <recent name="C:\wamp64\www\ecommerce\resources\views\admin\includes\alerts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\ecommerce\public\assets\images" />
+      <recent name="C:\laragon\www\ecommerce\public\assets" />
+      <recent name="C:\laragon\www\ecommerce\public" />
+      <recent name="C:\wamp64\www\ecommerce\resources\views\front" />
+      <recent name="C:\wamp64\www\ecommerce" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.MainCategoriesController.php">
@@ -168,18 +183,6 @@
         <item itemvalue="PHP Script.MainCategoriesController.php" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -202,7 +205,8 @@
       <workItem from="1591811232976" duration="9929000" />
       <workItem from="1591845976099" duration="882000" />
       <workItem from="1591847314298" duration="13190000" />
-      <workItem from="1592069817615" duration="14297000" />
+      <workItem from="1592069817615" duration="14575000" />
+      <workItem from="1592951502977" duration="12046000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 11-6 set index in to public folder and Make Migration Tables">
       <created>1591888810260</created>
@@ -218,35 +222,52 @@
       <option name="project" value="LOCAL" />
       <updated>1592084132509</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit 11-6 set index in to public folder and Make Migration Tables">
+      <created>1592084842955</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592084842955</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit 11-6 set index in to public folder and Make Migration Tables" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit 11-6 set index in to public folder and Make Migration Tables" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="739" y="62" key="#MainCategoriesController.php" timestamp="1592073864552">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="739" y="62" key="#MainCategoriesController.php/0.0.1360.738@0.0.1360.738" timestamp="1592073864552" />
+    <state x="272" y="28" key="#Notifications" timestamp="1592084959122">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="272" y="28" key="#Notifications/0.0.1360.738@0.0.1360.738" timestamp="1592084959122" />
     <state x="359" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591849930632">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
@@ -259,26 +280,30 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="364" y="25" width="646" height="688" key="#phpunit.xml/0.0.1360.738@0.0.1360.738" timestamp="1591846647872" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1592084633246">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1592084840516">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1360.738@0.0.1360.738" timestamp="1592084633246" />
-    <state x="128" y="62" key="DiffContextDialog" timestamp="1591859240962">
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1360.738@0.0.1360.738" timestamp="1592084840516" />
+    <state x="128" y="62" key="DiffContextDialog" timestamp="1592084939055">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="128" y="62" key="DiffContextDialog/0.0.1360.738@0.0.1360.738" timestamp="1591859240962" />
-    <state x="460" y="125" key="FileChooserDialogImpl" timestamp="1591892676598">
+    <state x="128" y="62" key="DiffContextDialog/0.0.1360.738@0.0.1360.738" timestamp="1592084939055" />
+    <state x="460" y="125" key="FileChooserDialogImpl" timestamp="1592085104385">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="460" y="125" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1591892676598" />
+    <state x="460" y="125" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1592085104385" />
+    <state x="0" y="107" key="IDE.errors.dialog" timestamp="1592951895587">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="0" y="107" key="IDE.errors.dialog/0.0.1360.738@0.0.1360.738" timestamp="1592951895587" />
     <state x="515" y="293" key="NewPhpFileDialog" timestamp="1592080785690">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="515" y="293" key="NewPhpFileDialog/0.0.1360.738@0.0.1360.738" timestamp="1592080785690" />
-    <state x="272" y="103" key="Vcs.Push.Dialog.v2" timestamp="1592084464793">
+    <state x="272" y="103" key="Vcs.Push.Dialog.v2" timestamp="1592084942710">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="272" y="103" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1592084464793" />
+    <state x="272" y="103" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1592084942710" />
     <state x="428" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1591847322172">
       <screen x="0" y="0" width="1360" height="738" />
     </state>

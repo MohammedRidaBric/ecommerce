@@ -56,8 +56,8 @@ return [
         ],
         'maincategories' => [
             'driver' => 'local',
-            'root' => base_path() . 'public/assets/images/maincategories',
-            'url' => env('APP_URL').'/public',
+            'root' => base_path() . '/public/assets/images/maincategories',
+            'url' => env('APP_URL') . '/public',
             'visibility' => 'public',
         ],
 
