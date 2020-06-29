@@ -25,7 +25,7 @@ function SaveImage($folder, $photo)
 {
     $file_extension = $photo->getClientOriginalExtension();
 
-    $file_name = $photo->hashName() . '.' . $file_extension;
+    $file_name = time() . '.' . $file_extension;
     $path = 'assets/images/' . $folder;
     $photo->move($path, $file_name);
     return $path . "/" . $file_name;

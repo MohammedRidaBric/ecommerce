@@ -5,8 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\LanguageRequest;
 use App\Models\Language;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Lang;
+use Exception;
 
 class LanguagesController extends Controller
 {
@@ -18,6 +17,7 @@ class LanguagesController extends Controller
 
     public function create()
     {
+
         return view('admin.languages.create');
     }
 
@@ -26,7 +26,7 @@ class LanguagesController extends Controller
         try {
             Language::create($request->except(['_token']));
             return redirect()->route('admin.languages')->with(['success' => 'تم حفظ اللغة بنجاح']);
-        } catch (\Exception $ex) {
+        } catch (Exception $ex) {
             return redirect()->route('admin.languages')->with(['error' => 'هناك خطا ما يرجي المحاوله فيما بعد']);
         }
     }
@@ -49,13 +49,13 @@ class LanguagesController extends Controller
             if (!$language) {
                 return redirect()->route('admin.languages.edit', $id)->with(['error' => 'هذه اللغة غير موجوده']);
             }
-            if (!$request->has('active')) $request-> request->add(['active'=>0]);
+            if (!$request->has('active')) $request->request->add(['active' => 0]);
 
-            $language -> update($request -> except('_token'));
+            $language->update($request->except('_token'));
 
             return redirect()->route('admin.languages')->with(['success' => 'تم تحديث اللغة بنجاح']);
 
-        } catch (\Exception $ex) {
+        } catch (Exception $ex) {
             return redirect()->route('admin.languages')->with(['error' => 'هناك خطا ما يرجي المحاوله فيما بعد']);
         }
     }
@@ -67,11 +67,11 @@ class LanguagesController extends Controller
             if (!$language) {
                 return redirect()->route('admin.languages', $id)->with(['error' => 'هذه اللغة غير موجوده']);
             }
-            $language -> delete();
+            $language->delete();
 
             return redirect()->route('admin.languages')->with(['success' => 'تم حذف اللغة بنجاح']);
 
-        } catch (\Exception $ex) {
+        } catch (Exception $ex) {
             return redirect()->route('admin.languages')->with(['error' => 'هناك خطا ما يرجي المحاوله فيما بعد']);
         }
     }

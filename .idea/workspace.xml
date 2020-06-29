@@ -33,25 +33,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/VendorsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Vendor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_24_033351_create_vendors_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/maincategories/HsRi8dNGuBmWryPcjb6SLDZV5uZc5encQlObYE3N.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/maincategories/l67BryGn1atuX0AGRxGQhKSVvM7qanszXbkIHxXS.png.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/vendors/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/vendors/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/vendors/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/VendorRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Notifications/VendorCreated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/1593392975.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/1593392995.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/1593395483.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/1593395558.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/1593395627.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/k7Tfnj9Pu5F6Vd3eVsoA63TLeRMpMnR6TkPWxPVC.png.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainCategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainCategoriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/MainCategoriesRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/MainCategoriesRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Language.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Language.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/MainCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/MainCategory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Helpers/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/Helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LanguagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/LanguagesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/VendorsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/VendorsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Vendor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Vendor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/languages/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/languages/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/languages/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/languages/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/languages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/languages/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/maincategories/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/vendors/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/vendors/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +241,7 @@
       <workItem from="1591847314298" duration="13190000" />
       <workItem from="1592069817615" duration="14575000" />
       <workItem from="1592951502977" duration="20363000" />
-      <workItem from="1593384042070" duration="3804000" />
+      <workItem from="1593384042070" duration="9314000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 11-6 set index in to public folder and Make Migration Tables">
       <created>1591888810260</created>
@@ -273,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592963784640</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit 29-6 Vendore">
+      <created>1593390346660</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593390346660</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +304,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit 11-6 set index in to public folder and Make Migration Tables" />
     <MESSAGE value="Commit 24-6 MainCategory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 24-6 MainCategory" />
+    <MESSAGE value="Commit 29-6 Vendore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 29-6 Vendore" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -317,18 +323,18 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="359" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.738@0.0.1360.738" timestamp="1591849930632" />
-    <state x="750" y="128" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1592073839782">
+    <state x="750" y="128" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1593395361239">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="750" y="128" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1360.738@0.0.1360.738" timestamp="1592073839782" />
+    <state x="750" y="128" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1360.738@0.0.1360.738" timestamp="1593395361239" />
     <state x="364" y="25" width="646" height="688" key="#phpunit.xml" timestamp="1591846647872">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="364" y="25" width="646" height="688" key="#phpunit.xml/0.0.1360.738@0.0.1360.738" timestamp="1591846647872" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1592963781275">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1593390343224">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1360.738@0.0.1360.738" timestamp="1592963781275" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1360.738@0.0.1360.738" timestamp="1593390343224" />
     <state x="128" y="62" key="DiffContextDialog" timestamp="1592084939055">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
