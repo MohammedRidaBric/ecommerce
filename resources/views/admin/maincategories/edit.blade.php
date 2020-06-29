@@ -163,7 +163,6 @@
                                                          id="homeLable{{$index}}"
                                                          aria-labelledby="homeLable-tab"
                                                          aria-expanded="{{$index ==  0 ? 'true' : 'false'}}">
-
                                                         <form class="form"
                                                               action="{{route('admin.maincategories.update',$translation -> id)}}"
                                                               method="POST"
@@ -188,13 +187,12 @@
                                                                                    placeholder="  "
                                                                                    value="{{$translation -> name}}"
                                                                                    name="category[0][name]">
-                                                                            @error("category.$index.name")
+                                                                            @error("category.0.name")
                                                                             <span
-                                                                                class="text-danger"> هذا الحقل مطلوب</span>
+                                                                                class="text-danger"> هذا الحقل مطلوب</span>pit
                                                                             @enderror
                                                                         </div>
                                                                     </div>
-
 
                                                                     <div class="col-md-6 hidden">
                                                                         <div class="form-group">
@@ -220,11 +218,11 @@
                                                                         <div class="form-group mt-1">
                                                                             <input type="checkbox" value="1"
                                                                                    name="category[0][active]"
-                                                                                   id="switcheryColor4"
+                                                                                   id="switcheryColor{{$index}}"
                                                                                    class="switchery"
                                                                                    data-color="success"
                                                                                    @if($translation -> active == 1)checked @endif/>
-                                                                            <label for="switcheryColor4"
+                                                                            <label for="switcheryColor{{$index}}"
                                                                                    class="card-title ml-1">الحالة {{__('messages.'.$translation -> translation_lang)}} </label>
 
                                                                             @error("category.0.active")

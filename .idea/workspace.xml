@@ -1,20 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/maincategories/1592961191.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/maincategories/jL2vhGfp2K49qTXSBrZiNuqa6xtRP23dqEMwVqFD.png.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/maincategories/kOVG1z4KRCWz3mSNylO2I2N19ivaOVj654NghrhH.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/VendorsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Vendor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_24_033351_create_vendors_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/maincategories/HsRi8dNGuBmWryPcjb6SLDZV5uZc5encQlObYE3N.jpeg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/maincategories/l67BryGn1atuX0AGRxGQhKSVvM7qanszXbkIHxXS.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/vendors/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/vendors/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/vendors/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Helpers/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/Helper.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainCategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainCategoriesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/MainCategoriesRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/MainCategoriesRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Language.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Language.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/MainCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/MainCategory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/maincategories/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/languages/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/languages/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/languages/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/languages/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/languages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/languages/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/maincategories/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/maincategories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,11 +192,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\ecommerce\resources\views\admin\vendors" />
       <recent name="C:\laragon\www\ecommerce\resources\lang" />
       <recent name="C:\laragon\www\ecommerce\resources\views\admin" />
       <recent name="C:\wamp64\www\ecommerce\resources\views\admin\languages" />
       <recent name="C:\wamp64\www\ecommerce\app\Models" />
-      <recent name="C:\wamp64\www\ecommerce\resources\views\admin\includes\alerts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\laragon\www\ecommerce\public\assets\images" />
@@ -206,7 +242,8 @@
       <workItem from="1591845976099" duration="882000" />
       <workItem from="1591847314298" duration="13190000" />
       <workItem from="1592069817615" duration="14575000" />
-      <workItem from="1592951502977" duration="12046000" />
+      <workItem from="1592951502977" duration="20363000" />
+      <workItem from="1593384042070" duration="3804000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 11-6 set index in to public folder and Make Migration Tables">
       <created>1591888810260</created>
@@ -229,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592084842955</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit 24-6 MainCategory">
+      <created>1592963784640</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592963784640</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +298,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit 11-6 set index in to public folder and Make Migration Tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 11-6 set index in to public folder and Make Migration Tables" />
+    <MESSAGE value="Commit 24-6 MainCategory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 24-6 MainCategory" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -280,18 +325,18 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="364" y="25" width="646" height="688" key="#phpunit.xml/0.0.1360.738@0.0.1360.738" timestamp="1591846647872" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1592084840516">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1592963781275">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1360.738@0.0.1360.738" timestamp="1592084840516" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1360.738@0.0.1360.738" timestamp="1592963781275" />
     <state x="128" y="62" key="DiffContextDialog" timestamp="1592084939055">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="128" y="62" key="DiffContextDialog/0.0.1360.738@0.0.1360.738" timestamp="1592084939055" />
-    <state x="460" y="125" key="FileChooserDialogImpl" timestamp="1592085104385">
+    <state x="460" y="125" key="FileChooserDialogImpl" timestamp="1593018322910">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="460" y="125" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1592085104385" />
+    <state x="460" y="125" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1593018322910" />
     <state x="0" y="107" key="IDE.errors.dialog" timestamp="1592951895587">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
@@ -308,14 +353,18 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="428" y="194" key="com.intellij.ide.util.TipDialog/0.0.1360.738@0.0.1360.738" timestamp="1591847322172" />
+    <state x="489" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592963825358">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="489" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.738@0.0.1360.738" timestamp="1592963825358" />
     <state x="377" y="101" width="606" height="536" key="find.popup" timestamp="1591855591377">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="377" y="101" width="606" height="536" key="find.popup/0.0.1360.738@0.0.1360.738" timestamp="1591855591377" />
-    <state x="336" y="165" key="run.anything.popup" timestamp="1591846673998">
+    <state x="336" y="165" key="run.anything.popup" timestamp="1592963840352">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="336" y="165" key="run.anything.popup/0.0.1360.738@0.0.1360.738" timestamp="1591846673998" />
+    <state x="336" y="165" key="run.anything.popup/0.0.1360.738@0.0.1360.738" timestamp="1592963840352" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

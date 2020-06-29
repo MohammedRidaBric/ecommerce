@@ -44,7 +44,7 @@
                                 <div class="card-content collapse show">
                                     <div class="card-body card-dashboard">
                                         <table
-                                            class="table display nowrap table-striped table-bordered scroll-horizontal">
+                                            class="table   table-striped table-bordered ">
                                             <thead class="">
                                             <tr>
                                                 <th>الاسم</th>
@@ -63,7 +63,7 @@
                                                         <td>{{$vendor -> name}}</td>
                                                         <td><img style="width: 150px; height: 100px;"
                                                                  src="{{$vendor -> 	logo}}"></td>
-                                                        <td>
+
                                                         <td>{{$vendor -> mobile}}</td>
                                                         <td> {{$vendor -> 	category -> name}}</td>
 
@@ -92,9 +92,7 @@
 
                                             </tbody>
                                         </table>
-                                        <div class="justify-content-center d-flex">
 
-                                        </div>
                                     </div>
                                 </div>
                             </div>
