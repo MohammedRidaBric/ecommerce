@@ -45,6 +45,7 @@ class VendorsController extends Controller
                 'mobile' => $request->mobile,
                 'address' => $request->address,
                 'email' => $request->email,
+                'password' => $request->password,
                 'active' => $request->active,
                 'logo' => $file,
                 'category_id' => $request->category_id
@@ -64,18 +65,46 @@ class VendorsController extends Controller
     public function edit($id)
     {
         try {
+            $vendor = Vendor::Selection()->find($id);
+            if (!$vendor) return redirect()->route('admin.vendors')->with(['error' => 'هذا المتجر غير موجود او ربما يكون محذوفا ']);
+            $categories = MainCategory::where('translation_of', 0)->active()->get();
+            return view('admin.vendors.edit', compact('categories', 'vendor'));
 
         } catch (Exception $ex) {
             return redirect()->route('admin.vendors.index')->with(['error' => 'حدث خطا ما برجاء المحاوله لاحقا']);
-
         }
     }
 
     public function update(Request $request, $id)
     {
         try {
+            $vendor = Vendor::Selection()->find($id);
+            if (!$vendor) return redirect()->route('admin.vendors')->with(['error' => 'هذا المتجر غير موجود او ربما يكون محذوفا ']);
+            // start spy  if has Error in database
+            DB::beginTransaction();
+            $file = $vendor->logo;
+            $password = "";
+            if ($request->has('logo')) $file = SaveImage('vendors', $request->logo);
+            if ($request->has('password')) $password = $request->password;
+            if ($request->has('active')) $request->request->add(['active' => 1]);
+            else $request->request->add(['active' => 0]);
+            $vendor->update([
+                'name' => $request->name,
+                'mobile' => $request->mobile,
+                'address' => $request->address,
+                'email' => $request->email,
+                'password' => $password,
+                'active' => $request->active,
+                'logo' => $file,
+                'category_id' => $request->category_id
+            ]);
+            DB::commit();
+            // end spy  if has Error in database
+            return redirect()->route('admin.vendors')->with(['success' => 'تم الحفظ بنجاح']);
+
 
         } catch (Exception $ex) {
+            DB::rollBack();
             return redirect()->route('admin.vendors.index')->with(['error' => 'حدث خطا ما برجاء المحاوله لاحقا']);
 
         }

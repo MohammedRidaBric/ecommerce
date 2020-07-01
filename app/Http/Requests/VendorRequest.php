@@ -27,8 +27,9 @@ class VendorRequest extends FormRequest
             'logo' => 'required_without:id|mimes:jpg,jpeg,png',
             'name' => 'required|string|max:140',
             'category_id' => 'required|exists:main_categories,id',
-            'mobile' => 'required|max:15',
-            'email' => 'sometimes|nullable|email',
+            'mobile' => 'required|max:15|unique:vendors,mobile',
+            'email' => 'required|email|unique:vendors,email',
+            'password' => 'required_without:id|min:6|',
             'address' => 'required|string|max:190',
         ];
     }

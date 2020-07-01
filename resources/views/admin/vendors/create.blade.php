@@ -79,8 +79,9 @@
 
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <label for="projectinput2"> أختر القسم </label>
-                                                            <select name="category_id" class="select2 form-control">
+                                                            <label for="category_id"> أختر القسم </label>
+                                                            <select name="category_id"
+                                                                    class=" form-control custom-control">
                                                                 <optgroup label="من فضلك أختر القسم ">
                                                                     @if($categories && $categories -> count() > 0)
                                                                         @foreach($categories as $category)
@@ -123,7 +124,19 @@
                                                             @enderror
                                                         </div>
                                                     </div>
+                                                    <div class="class col-12">
+                                                        <div class="form-group">
+                                                            <label for="password">كلمة المرور </label>
+                                                            <input type="password" id="password"
+                                                                   class="form-control"
+                                                                   placeholder="  " name="password">
 
+                                                            @error("password")
+                                                            <span class="text-danger"> {{$message}}</span>
+                                                            @enderror
+                                                        </div>
+
+                                                    </div>
 
                                                 </div>
 
@@ -131,7 +144,7 @@
                                                 <di class="row">
                                                     <div class="col-md-6 ">
                                                         <div class="form-group">
-                                                            <label for="projectinput1"> العنوان </label>
+                                                            <label for="address"> العنوان </label>
                                                             <input type="text" id="pac-input"
                                                                    class="form-control"
                                                                    placeholder="  " name="address">
@@ -151,7 +164,7 @@
                                                                    id="switcheryColor4"
                                                                    class="switchery" data-color="success"
                                                                    checked/>
-                                                            <label for="switcheryColor4"
+                                                            <label for="active"
                                                                    class="card-title ml-1">الحالة </label>
 
                                                             @error("active")
@@ -160,6 +173,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
 
                                             </div>
 

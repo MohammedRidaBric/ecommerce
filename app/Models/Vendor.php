@@ -11,9 +11,15 @@ class Vendor extends Model
 
     protected $table = 'vendors';
 
-    protected $fillable = ['name', 'mobile', 'address', 'email', 'active', 'logo', 'category_id', 'created_at', 'updated_at'];
+    protected $fillable = ['name', 'mobile', 'address', 'email', 'password', 'active', 'logo', 'category_id', 'created_at', 'updated_at'];
 
-    protected $hidden = ['category_id', 'created_at', 'updated_at'];
+    protected $hidden = ['category_id', 'password', 'created_at', 'updated_at'];
+
+    //
+    public function setPasswordAttribute($value)
+    {
+        if (!empty($value)) $this->attributes['password'] = bcrypt($value);
+    }
 
     //
 
@@ -31,7 +37,7 @@ class Vendor extends Model
 
     public function scopeSelection($query)
     {
-        return $query->select('id', 'name', 'mobile', 'logo', 'category_id');
+        return $query->select('id', 'category_id', 'active', 'name', 'address', 'email', 'logo', 'mobile');
     }
 
 

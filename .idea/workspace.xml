@@ -33,23 +33,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/VendorRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Notifications/VendorCreated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/1593392975.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/1593392995.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/1593395483.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/1593395558.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/1593395627.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/k7Tfnj9Pu5F6Vd3eVsoA63TLeRMpMnR6TkPWxPVC.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/1593627184.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/1593631947.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Helpers/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/Helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LanguagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/LanguagesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/VendorsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/VendorsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/VendorRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/VendorRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Vendor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Vendor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/languages/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/languages/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/languages/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/languages/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/languages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/languages/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/vendors/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/vendors/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_06_24_033351_create_vendors_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_06_24_033351_create_vendors_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/vendors/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/vendors/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/vendors/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/vendors/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +233,8 @@
       <workItem from="1591847314298" duration="13190000" />
       <workItem from="1592069817615" duration="14575000" />
       <workItem from="1592951502977" duration="20363000" />
-      <workItem from="1593384042070" duration="9314000" />
+      <workItem from="1593384042070" duration="9811000" />
+      <workItem from="1593624648220" duration="6792000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 11-6 set index in to public folder and Make Migration Tables">
       <created>1591888810260</created>
@@ -278,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593390346660</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit 29-6/2 Vendore">
+      <created>1593395786521</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593395786521</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +305,8 @@
     <MESSAGE value="Commit 11-6 set index in to public folder and Make Migration Tables" />
     <MESSAGE value="Commit 24-6 MainCategory" />
     <MESSAGE value="Commit 29-6 Vendore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 29-6 Vendore" />
+    <MESSAGE value="Commit 29-6/2 Vendore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 29-6/2 Vendore" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -331,18 +332,18 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="364" y="25" width="646" height="688" key="#phpunit.xml/0.0.1360.738@0.0.1360.738" timestamp="1591846647872" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1593390343224">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1593395783487">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1360.738@0.0.1360.738" timestamp="1593390343224" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1360.738@0.0.1360.738" timestamp="1593395783487" />
     <state x="128" y="62" key="DiffContextDialog" timestamp="1592084939055">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="128" y="62" key="DiffContextDialog/0.0.1360.738@0.0.1360.738" timestamp="1592084939055" />
-    <state x="460" y="125" key="FileChooserDialogImpl" timestamp="1593018322910">
+    <state x="460" y="125" key="FileChooserDialogImpl" timestamp="1593396235557">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="460" y="125" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1593018322910" />
+    <state x="460" y="125" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1593396235557" />
     <state x="0" y="107" key="IDE.errors.dialog" timestamp="1592951895587">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
@@ -351,6 +352,14 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="515" y="293" key="NewPhpFileDialog/0.0.1360.738@0.0.1360.738" timestamp="1592080785690" />
+    <state x="822" y="93" key="RollbackChangesDialog" timestamp="1593629160677">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="822" y="93" key="RollbackChangesDialog/0.0.1360.738@0.0.1360.738" timestamp="1593629160677" />
+    <state width="615" height="446" key="SwitcherDM" timestamp="1593627762718">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state width="615" height="446" key="SwitcherDM/0.0.1360.738@0.0.1360.738" timestamp="1593627762718" />
     <state x="272" y="103" key="Vcs.Push.Dialog.v2" timestamp="1592084942710">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
@@ -359,10 +368,10 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="428" y="194" key="com.intellij.ide.util.TipDialog/0.0.1360.738@0.0.1360.738" timestamp="1591847322172" />
-    <state x="489" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592963825358">
+    <state x="489" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593632437965">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="489" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.738@0.0.1360.738" timestamp="1592963825358" />
+    <state x="489" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.738@0.0.1360.738" timestamp="1593632437965" />
     <state x="377" y="101" width="606" height="536" key="find.popup" timestamp="1591855591377">
       <screen x="0" y="0" width="1360" height="738" />
     </state>

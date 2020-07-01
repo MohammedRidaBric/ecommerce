@@ -21,6 +21,9 @@ class CreateVendorsTable extends Migration
             $table->smallInteger('active')->default(0);
             $table->string('logo')->nullable();
             $table->string('email', 100)->nullable();
+            $table->string('password');
+            // $table->string('latitude');
+            //$table->string('longitude');
             $table->unsignedBigInteger('category_id');
             $table->foreign('category_id')->references('id')->on('main_categories');
             $table->timestamps();
